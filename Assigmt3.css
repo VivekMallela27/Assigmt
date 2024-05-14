@@ -1,0 +1,76 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/bld.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav
+{
+    background-color:rgba(180, 103, 103, 0.342);
+    width: 10%;
+    height: 100vh;
+}
+#cont
+{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+    font-size: bold;
+}
+a:hover
+{
+    background-color: burlywood;
+    
+}
+#menu
+{ 
+    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color:cyan;
+    position:absolute;
+    top: 0%;
+    left: 100%;
+
+    
+    display: none;
+}
+#drop
+{
+    position: relative;
+}
+#drop:hover #menu
+{
+    display: block;
+}
+#menu1
+{ 
+    
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color:cyan;
+    position:absolute;
+    top: 0%;
+    left: 100%;
+
+    
+    display: none;
+}
+#drop1
+{
+    position: relative;
+}
+#drop1:hover #menu1
+{
+    display: block;
+}
